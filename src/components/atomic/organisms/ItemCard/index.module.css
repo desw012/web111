@@ -1,0 +1,21 @@
+.btnStar {
+    background: inherit;
+    border:none;
+    box-shadow:none;
+    border-radius:0;
+    padding:0;
+    overflow:visible;
+    cursor:pointer;
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right : 0px;
+    top : 0px;
+}
+.btnStar::after{
+    content: "☆";
+}
+.btnStar.active::after{
+    content: "★";
+}
